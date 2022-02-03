@@ -19,7 +19,7 @@
       font-family: Montserrat, Helvetica, sans-serif;
     }
 
-    * {
+    *, ::after, ::before {
       box-sizing: border-box;
       padding: 0;
       margin: 0;
@@ -69,6 +69,7 @@
     .videoholder {
       width: 50%;
       padding: 1rem;
+      object-fit: cover;
     }
   </style>
 </head>
@@ -142,7 +143,7 @@
     </div>
 
     <div class="videoholder">
-      <video autoplay loop>
+      <video  controls width="100%">
         <source src="instuctions.mp4" type="video/mp4">
       </video>
     </div>
