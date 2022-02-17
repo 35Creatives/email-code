@@ -51,6 +51,11 @@
         .ExternalClass {
             width: 100%;
         }
+
+        @media (prefers-color-scheme: dark) {
+    .dark-logo { display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important; }
+    .light-logo { display:none; display:none !important; }
+    }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -266,11 +271,19 @@
                                                                                 <td align="left"
                                                                                     style="padding-left: 4px; padding-right: 13px; text-align: center; padding-top: 0;">
                                                                                     <a href="https://www.facebook.com/35creatives"
-                                                                                        target="_blank"> <img 
-                                                                    
+                                                                                        target="_blank"> 
+                                                                                        
+                                                                                            <img class="dark-logo" 
+                                                                                            src="/facebook.png"
+                                                                                            style="float: left; border:none; display:none;"
+                                                                                            border="0"> 
+
+                                                                                            <img class="light-logo" 
                                                                                             src="/facebook.png"
                                                                                             style="float: left; border:none;"
-                                                                                            border="0"> </a> </td>
+                                                                                            border="0">
+                                                                                        
+                                                                                        </a> </td>
                                                                                 <td align="left"
                                                                                     style="padding-right: 13px; text-align: center; padding-top: 0;">
                                                                                     <a href="https://www.instagram.com/35creatives/"
